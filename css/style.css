@@ -3432,8 +3432,6 @@ p{
 	line-height:24px;
 }*/
 
-
-
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
 #save-the-date{
@@ -3659,7 +3657,9 @@ p{
 	margin-bottom:0px;
 
 }
-
+h1, .h1{
+	font-size: 1.8em;
+}
 #save{
 	font-size:50px;
 	line-height:30px
