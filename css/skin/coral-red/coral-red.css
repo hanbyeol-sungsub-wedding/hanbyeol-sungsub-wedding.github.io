@@ -1,0 +1,305 @@
+/*===============================================*/
+/* 00. PRELOADER		 						 */
+/*===============================================*/
+.heart-animation i{
+	color:#FF4040;
+}
+
+.top-heart{
+	color:#FF4040;
+}
+
+.her-name{
+	color:#FF4040;
+}
+
+/*===============================================*/
+/* 01. GENERAL			 						 */
+/*===============================================*/
+
+h1 a:hover, h2 a:hover, h3 a:hover, 
+h4 a:hover, h5 a:hover, h6 a:hover{
+	color:#FF4040;
+}
+
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu								 */
+/* ----------------------------------------------*/
+#nav-menu > li:before{
+	color:#FF4040;
+}
+
+#nav-menu > li a:hover{
+	color:#FF4040;
+}
+
+/* 03.1.1 Transparent 							 */
+/* ----------------------------------------------*/
+.transparent #nav-menu > li a:hover{
+	color:#FF4040;
+}
+
+/* ----------------------------------------------*/
+/* 03.2 Child Menu								 */
+/* ----------------------------------------------*/
+#nav-menu ul{
+	border-top-color:#FF4040;
+}
+
+#nav-menu ul li a:hover{
+	background-color:#FF4040;
+}
+
+/* ----------------------------------------------*/
+/* 04.2 Menu Icon					 			 */
+/*-----------------------------------------------*/
+
+/* 04.2.1 Standard Menu Icon */
+/* ----------------------------------------------*/
+#menu-icon.white a:hover i, #menu-icon a:hover i{
+	color:#FF4040;
+}
+
+/* 04.2.2 Sticky Menu Icon */
+/* ----------------------------------------------*/
+#sticky-menuicon a:hover{
+	background-color:#FF4040;
+}
+
+/* ----------------------------------------------*/
+/* 04.3 Sidebar Menu				 			 */
+/*-----------------------------------------------*/
+
+/* 04.3.2 Close Button */
+/* ----------------------------------------------*/
+#close-button:hover i{
+	color:#FF4040;
+}
+
+/* 04.3.3 Parent Menu */
+/* ----------------------------------------------*/
+#side-nav-menu > li > a:before{
+	color:#FF4040;
+}
+
+#side-nav-menu > li a:hover{
+	color:#FF4040;
+}
+
+
+
+/*===============================================*/
+/* 05. LOGO	 	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 05.1	CSS Logo								 */
+/* ----------------------------------------------*/
+.css-logo{
+	background-color:#FF4040;
+}
+
+
+/*===============================================*/
+/* 06. MAIN-SLIDER					 		 	 */
+/*===============================================*/
+
+/* 06.5.6 Save The Date Title */
+/* ----------------------------------------------*/
+.pink-dot{
+	color: #FF4040;
+}
+
+/*===============================================*/
+/* 07 PAGE										 */
+/*===============================================*/
+
+/* 07.1.6 Page Sidebar				 			 */
+/* ----------------------------------------------*/
+.sidebar-menu li a:hover{
+	color: #FF4040;
+}
+
+
+/* ----------------------------------------------*/
+/* 07.2 PAGE ELEMENT	 	 					 */
+/* ----------------------------------------------*/
+
+/* 07.2.4 Title-Excerpt White Box				 */
+/* ----------------------------------------------*/
+.title-excerpt .custom-heart-icon{
+	color:#FF4040 !important; 
+}
+
+
+/* 07.2.9 HEART DIVIDER							 */
+/* ----------------------------------------------*/
+.pink-heart{
+	color:#FF4040; 
+}
+
+
+/* 07.2.10 BUTTON					 			 */
+/* ----------------------------------------------*/
+a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
+	background-color:#FF4040; 
+	border:solid 1px #FF4040;
+}
+
+a.de-button:hover, input[type=submit]:hover{
+	background-color:#FF4040;
+	border-color:#FF4040;
+}
+
+/* 07.2.11 Banner Text				 			 */
+/* ----------------------------------------------*/
+.banner-text.withlove:after{
+	color:#FF4040;
+}
+
+/*===============================================*/
+/* 08 ICON										 */
+/*===============================================*/
+
+/*------------------------------------------------*/
+/* 08.2 Shape									  */
+/*------------------------------------------------*/
+
+/* 08.2.1 Default								  */
+/*------------------------------------------------*/
+.de-icon.default.reverse{
+	color:#FF4040;
+}
+
+a:hover .de-icon.default, a:hover .de-icon.default.light{
+	color:#FF4040;
+}
+
+/* 08.2.2 Circle, Rounded, Square				  */
+/*------------------------------------------------*/
+.de-icon.square.reverse, .de-icon.circle.reverse, .de-icon.rounded.reverse{
+	background-color:#FF4040;
+	color:#FFF;
+}
+
+.de-icon.square.light.reverse, .de-icon.circle.light.reverse, .de-icon.rounded.light.reverse{
+	background-color:#FFF;
+	color:#FF4040;
+}
+
+.de-icon.outline.reverse{
+	background-color:transparent;
+	color:#FF4040;
+	border:1px solid #FF4040;
+}
+
+.de-icon.outline.light, .de-icon.outline.light.reverse{
+	background-color:transparent;
+	color:#FFF;
+	border:1px solid #FFF;
+}
+
+
+a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
+	background-color:#FF4040;
+	color:#FFF;
+	border:none;
+}
+
+/*------------------------------------------------*/
+/* 08.5 Effect Square/Rounded To Circle 	  	  */
+/*------------------------------------------------*/
+a:hover .de-icon.effect3{
+	background-color:#FF4040;
+	color:#fff;
+	border-radius: 50%;
+}
+
+/*===============================================*/
+/* 11 FORM										 */
+/*===============================================*
+
+/* 11.5 Button									 */
+/*-----------------------------------------------*/
+form .btn-primary:hover,
+form .btn-primary:focus,
+form .btn-primary.focus,
+form .btn-primary:active,
+form .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color:#FF4040; 
+	border-color:#FF4040;
+	color:#FFF;
+ 	border-color: #cccccc;
+}
+
+/*-----------------------------------------------*/
+/* 11.8 Message									 */
+/*-----------------------------------------------*/
+.message .bg-danger{
+	background-color:#FF4040; 
+}
+
+/*===============================================*/
+/* 14. ONEPAGE SECTION							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 14.2 Couple Section							 */
+/* ----------------------------------------------*/
+.his-her-name .custom-heart{
+	background-color:#FF4040; 
+}
+
+
+/* ----------------------------------------------*/
+/* 14.3 Our Story Section						 */
+/* ----------------------------------------------*/
+.story-date{
+	background-color:#FF4040; 
+}
+
+/* ----------------------------------------------*/
+/* 14.4 Where When Section						 */
+/* ----------------------------------------------*/
+.and{
+	color:#FF4040; 
+}
+
+/* ----------------------------------------------*/
+/* 14.6 Don't Miss It / Countdown Section		 */
+/* ----------------------------------------------*/
+.circle-countdown .countdown-amount {
+	background-color:#FF4040; 
+}
+
+/*===============================================*/
+/* 15. PLUGIN CUSTOM							 */
+/*===============================================*/
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #FF4040; 
+}
+
+@media screen and (max-width: 991px) {	
+/*===============================================*/
+/* 03. NAV MENU	 	 							 */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 03.1 Parent Menu 						     */
+/* ----------------------------------------------*/
+#nav-menu li a:hover{
+	background-color:#FF4040;
+	color:#FFF;
+}
+
+.transparent #nav-menu li a:hover{
+	background-color:#FF4040;
+	color:#FFF;
+}
+}

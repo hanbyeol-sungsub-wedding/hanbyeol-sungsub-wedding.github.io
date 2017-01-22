@@ -1,0 +1,94 @@
+#preloader{
+	background-color:#f6f6f6;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0; 
+	z-index:9999;
+}
+
+#preloader.background_image{
+	background-image:url(http://placehold.it/1920x1080);
+	background-position:center center; 
+	background-size:cover; 
+}
+
+#preloader .black-overlay{
+	background-color:#000;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0; 
+	opacity:0.6
+}
+
+#preloader .white-overlay{
+	background-color:#FFF;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0; 
+	opacity:0.6
+}
+
+#preloader .spinner-animation{
+	-webkit-animation: pace-3d-spinner linear infinite 2s;
+  	   -moz-animation: pace-3d-spinner linear infinite 2s;
+ 	    -ms-animation: pace-3d-spinner linear infinite 2s;
+  	     -o-animation: pace-3d-spinner linear infinite 2s;
+  	        animation: pace-3d-spinner linear infinite 2s;
+
+  	-webkit-transform-style: preserve-3d;
+  	   -moz-transform-style: preserve-3d;
+  	    -ms-transform-style: preserve-3d;
+  	     -o-transform-style: preserve-3d;
+  	        transform-style: preserve-3d;
+}
+
+@-webkit-keyframes pace-3d-spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+@-moz-keyframes pace-3d-spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(360deg);
+  }
+}
+
+@-ms-keyframes pace-3d-spinner {
+  from {
+    -ms-transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+  }
+}
+
+@-o-keyframes pace-3d-spinner {
+  from {
+    -o-transform: rotateY(0deg);
+  }
+  to {
+    -o-transform: rotateY(360deg);
+  }
+}
+
+@keyframes pace-3d-spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

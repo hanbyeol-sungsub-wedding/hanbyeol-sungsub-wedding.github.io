@@ -1,0 +1,149 @@
+/* HEART ZOOM */
+@-webkit-keyframes heart-zoom {
+  0%, 100%   {
+    -webkit-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -webkit-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-moz-keyframes heart-zoom  {
+  0%, 100%   {
+    -moz-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -moz-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-ms-keyframes heart-zoom  {
+  0%, 100%   {
+    -ms-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -ms-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@-o-keyframes heart-zoom  {
+  0%, 100%   {
+    -o-transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    -o-transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+@keyframes heart-zoom  {
+  0%, 100%   {
+    transform: scale(0.5);
+	opacity:0.2;
+  }
+  50%   {
+    transform: scale(1.3);
+	opacity:1;
+  }
+}
+
+
+/* HEART ZOOM REVERSE */
+@-webkit-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -webkit-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -webkit-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-moz-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -moz-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -moz-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-ms-keyframes heart-zoom-reverse {
+  0%, 100%   {
+    -ms-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -ms-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@-o-keyframes heart-zoom-reverse  {
+  0%, 100%   {
+    -o-transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    -o-transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+@keyframes heart-zoom-reverse  {
+  0%, 100%   {
+    transform: scale(1.3);
+	opacity:1;
+  }
+  50%   {
+    transform: scale(0.5);
+	opacity:0.2;
+  }
+}
+
+
+.heart-animation {
+	display:inline-block;
+	margin:0 auto;
+	font-size:20px; 
+	line-height:20px;
+	letter-spacing:-20px;
+	
+	-webkit-animation: heart-zoom infinite 1.2s;
+  	   -moz-animation: heart-zoom infinite 1.2s;
+ 	    -ms-animation: heart-zoom infinite 1.2s;
+  	     -o-animation: heart-zoom infinite 1.2s;
+  	        animation: heart-zoom infinite 1.2s;
+}
+
+.heart-animation i{
+	color:#f0394d;
+}
+
+.heart-animation-reverse {
+	display:inline-block;
+	margin:0 auto; 
+	padding-right:20px;
+	font-size:20px; 
+	line-height:20px;
+	
+    -webkit-animation: heart-zoom-reverse infinite 1.2s;
+  	   -moz-animation: heart-zoom-reverse infinite 1.2s;
+ 	    -ms-animation: heart-zoom-reverse infinite 1.2s;
+  	     -o-animation: heart-zoom-reverse infinite 1.2s;
+  	        animation: heart-zoom-reverse infinite 1.2s;
+}
+
+.heart-animation-reverse i{
+	color:#999;
+}
